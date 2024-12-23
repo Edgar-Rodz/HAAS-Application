@@ -1,0 +1,42 @@
+.SideBar {
+  max-width: 200px;
+  height: 100vh;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-right: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+.SideBar a {
+  display: block;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.SideBar button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: large;
+  background-color: #007bff;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.SideBar button:hover {
+  background-color: #0056b3;
+}
+
+.SideBar button.active {
+  background-color: #28a745;
+}
+
+.SideBar button:focus {
+  outline: none;
+}
